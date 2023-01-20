@@ -1,0 +1,158 @@
+# HTML 
+
+HyperText Markup Language
+
+# 1. Tag 
+
+- Elemento 
+
+# 2. Attributes 
+
+- Configurações do elemento 
+
+target="blank" (usado com o link, serve para fazer com que o link abra uma nova guia)
+
+
+# CSS
+
+Cascading Style Sheets
+Folha de Estilo em Cascata
+
+# 1. Declaretions
+
+- Propriedade e valor 
+
+-cascata (a propriedade que vier por ultimo, vai ser a propriedade escolhida)
+
+-No pedding por exemplo quando colocamos 3 valores, como: 
+padding: 16px 24px 45px;
+
+o primeiro valor é igual a em cima 
+o segundo valor é igual a esquerda e direita
+o terceiro valor é igual a embaixo 
+
+-Display flex deixa os itens flexível, não deixndo eles em forma de linha 
+obs: o  align-items: center;, só funciona com o display flex
+
+-display: flex;
+vai fazer com que o elementos que estão dentro de um "container" fiquem flexível. 
+
+-align-items: center;
+cima, baixo, meio 
+
+-justify-content: ;
+esquerda, direita, meio 
+
+
+-line-height; espaço da linha
+
+-gap: espaço entre elementos (somente em display flax)
+
+-para colocar cor ou um "border-raidius" no input "checkbox", e necessário colocar 
+appearance: none;
+webkit-appearance: none; (webkit serve para outros navegadores identificarem o apperence.)
+
+-cada tipo de clasifição tem um peso 
+
+#id = 100 (1,0,0)
+
+.class = 10 (0,1,0)
+
+elemente (normal) = 1 (0,0,1)
+
+obs: vai ser priorizado o elmento com mais peso.
+
+-para ter uma noção de onde os elementos estão, é interessante usar o seguinte código: 
+ border: 1px solid red;
+
+-position: fixed; (isso faz com q deixe o elemeto fixado na pagina, pra assim qunado for moviemntar a pagina ele sempre fique visivel)
+
+
+ # JavaScript 
+
+ -Algóritmo
+ sequência de passos 
+
+ -lógica
+ lógica dos passos 
+
+-sintaxe 
+escrever a estrutura corretamente.
+
+-variavel 
+a variavel é como se fosse uma caixa onde eu guardo uma informação para usar mais tarde.
+obs: uma variavel não pode começar com número, tambem nao pode ter espaços e não pode usar caracterias especiais ou palavras reservadas (palavras que fazem parte da linguagem)
+
+
+
+-para anexar o JS no html é so colocar um script scr
+
+
+
+
+-aler(erro) (mensagem de erro)
+
+
+
+
+-sempre que for usar uma função no js é necessário colocar ()
+exemplo:
+
+const celular = {
+    cor: 'preto',
+    ligar: function() {
+        const mensagem ='ligando'
+        alert(mensagem)
+    } 
+
+}
+celular.ligar()
+
+-document.querySelector("input").click()
+
+querySelector("input") = procurar o primeiro input.
+
+click()= dar um clique 
+
+
+-const button = document.querySelector('header button')
+Isso vai criar uma variavel 
+
+
+-button.addEventListener('click', add) 
+
+add event.. significa ouvir o evento. Sabendo disso o "click" vai ser o evento que ele vai escutar, e o add é a reação dele.
+
+
+
+-function add() {
+    alert('hello Word')
+} 
+assim se cria uma função 
+
+
+-Sempre q o arquvo for salvo no "LocaStorage" ele vai ficar no browser, e qualquer alteração feita no js vai contar la, ate mesmo se o codido dessa alteração não estar mais no js. 
+para limpar essa alteração é necessário ir na ferramenta de desenvolverdor, ir em aplicação, local storage e deletar. 
+
+
+# GIT E GITHUB
+
+// inicia o git (repositório) no seu projeto
+git init 
+
+// adiciona todos os arquivos modificados, ao stage
+git add . 
+
+// cria e descreve um ponto na história
+git commit -m "message here" 
+
+// envia alterações para o repositório remoto
+git push
+
+
+
+
+
+
+
+
